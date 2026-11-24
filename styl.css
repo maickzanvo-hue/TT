@@ -1,0 +1,38 @@
+body {
+
+    background-color: antiquewhite;
+    margin: 0 auto;
+    padding-left: 225px;
+
+}
+h1{
+background-color: rgb(247, 27, 255);
+font-weight: 50px;
+width: 295px;
+padding: 13px 15px;
+border-radius: 9px;
+font-weight: bold;
+text-align: center;
+animation: apparition 2s ease-in-out;
+}
+
+@keyframes apparition {
+from {
+    opacity: 0;
+    transform: translateY(-50px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+ }
+}
+button{
+    background-color: rgb(134, 226, 13);
+    border: 80px;
+border-radius: 20px;
+padding: 15px 20px;
+
+}
+span{
+    font-size: 30px;
+}
